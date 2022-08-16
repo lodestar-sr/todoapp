@@ -1,0 +1,27 @@
+.checkbox {
+    width: 1.6rem;
+    height: 1.6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 1px solid #d6d6d6;
+    border-radius: 10rem;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+
+    i {
+        color: transparent;
+        font-size: 0;
+        transition: all ease-in-out 0.2s;
+    }
+
+    &.checked {
+        border-color: transparent;
+
+        i {
+            font-size: 1.125rem;
+            color: #25b499;
+        }
+    }
+}

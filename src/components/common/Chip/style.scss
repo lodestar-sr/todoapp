@@ -1,0 +1,35 @@
+.chip {
+    flex-shrink: 0;
+    font-size: 0.875rem;
+    border-radius: 3px;
+    padding: 4px 8px;
+    cursor: pointer;
+
+
+    &.chip-primary {
+        background: #00a8f7;
+        color: white;
+
+        &.active {
+            box-shadow: 0 0 5px #00a8f7;
+        }
+    }
+
+    &.chip-success {
+        background: #25b499;
+        color: white;
+
+        &.active {
+            box-shadow: 0 0 5px #25b499;
+        }
+    }
+
+    &.chip-danger {
+        background: #f33b6d;
+        color: white;
+
+        &.active {
+            box-shadow: 0 0 5px #f33b6d;
+        }
+    }
+}

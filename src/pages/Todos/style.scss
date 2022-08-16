@@ -1,0 +1,21 @@
+.todos-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #4357ff, #3746af);
+
+    .content {
+        width: 36rem;
+        max-width: 95vw;
+        max-height: 95vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .todo-list {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
